@@ -52,3 +52,5 @@ app.listen(process.env.PORT, function (err) {
   if (err) console.log(err);
   console.log(`Server is running at ${process.env.PORT}`);
 });
+
+// ATTENTION! NEED PROPER ERROR HANDLING ON MULTER!!!
